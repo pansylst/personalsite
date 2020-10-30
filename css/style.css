@@ -7,14 +7,35 @@ body{
   }
 
 h1{
+  color: #707070;
+  line-height: normal;
+  font-weight: lighter;
   margin-top: 0;
+  font-size: 70px;
   font-family: "Sacramento", serif;
 }
 h2{
+  color: #707070;
   font-family: "Roboto Mono", serif;
 }
 h3{
+  color: #707070;
   font-family: "Roboto Mono", serif;
+}
+p{
+  font-weight: normal;
+  color: #92817a;
+      font-size: 20px;
+}
+hr{
+  border-style: none;
+border-top-style: dotted;
+border-color: #cee397;
+border-width: 5px;
+width: 18%;
+}
+label{
+  color: #707070;
 }
 .top-container{
   background-color:#d2f5e3 ;
@@ -32,6 +53,9 @@ h3{
 }
 .contact-me{
   background-color: #8db596;
+}
+.comment{
+    background-color: #8db596;
 }
 .top-cloud{
   position:absolute;
@@ -58,4 +82,20 @@ h3{
 .wing{
   width: 200px;
   height: 130px;
+}
+.submit{
+  color: #9ad3bc;
+  background-color: #333456;
+}
+.name{
+  background-color: #f3eac2;
+}
+.email{
+  background-color: #f3eac2;
+}
+.checkbox{
+  background-color: #f3eac2;
+}
+.textarea{
+  background-color: #f3eac2;
 }
